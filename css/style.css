@@ -81,7 +81,7 @@ img.logo {
 }
 
 #menu ul a:hover{
- color: #006cfa
+ color: #fdfdfd
 }
 
 #menu ul input{
@@ -196,11 +196,11 @@ img.logo {
 }
 
 .btn-succes{
-  background: rgb(32, 190, 0);
+  background: rgb(190, 0, 0);
 }
 
 .btn-danger{
-  background: rgb(34, 166, 138);
+  background: rgb(221, 191, 19);
 }
 
 .btn-succes:hover,
@@ -209,6 +209,7 @@ img.logo {
 }
 
 input[type="text"],
+input[type="password"],
 input[type="email"]{
   width: 100%;
   min-height:25px;
