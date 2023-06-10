@@ -11,24 +11,24 @@
   <body>
     <header id="header">
       <div class="center">
-        <!-- LOGO  -->
-        <div id="logo">
-            <img src="../img/fox.webp" class="logo" alt="logotipo">
-        </div>
-        <!-- MENU  -->
-        <nav id="menu">
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../html/guitarras.html">Guitarras</a></li>
-            <li><a href="../html/accesorios.html">Accesorios</a></li>
-            <li><a href="../html/formulario.html">Usuarios</a></li>
-        </ul>
-        </nav>
-
-        <!-- LIMPIAR FLOTADOS  -->
-        <div class="clearfix"></div>
+          <!-- MENU  -->
+          <nav>
+              <section class="contenedor nav">
+                  <div class="enlaces-header">
+                    <a href="../index.html">inicio</a>
+                    <a href="../html/guitarras.html">Guitarras</a>
+                    <a href="../html/accesorios.html">Accesorios</a>
+                    <a href="../html/formulario.html">Usuario</a>
+                  </div>
+                  <div class="hamburguer">
+                    <i class="fa-solid fa-guitar" style="color: #000000;"></i>
+                  </div>
+              </section>
+          </nav>
+          <!-- LIMPIAR FLOTADOS  -->
+          <div class="clearfix"></div>
       </div>
-    </header>
+  </header>
 
     <div id="slider" class="slider">
       <h1>GUITARRAS</h1>
@@ -36,88 +36,90 @@
 
     <div class="center">
       <section id="content">
-          <h2 class="subheader">Accesorios</h2>
+        <h2 class="subheader">Accesorios</h2>
           <div id="articles">
-              <article class="article-item article-btn" id="article-template">
-
-                <div class="image-wrap">
-                      <img src="../img/Afinador.jpg" alt="Afinador">
-                  </div>
-                  <h2>Afinador</h2>
-                  <span class="date">
+              <div class="Accesor">
+                <div class="Accesor_flex"> 
+                  <div class="accesorios">
+                    <div class="image-wrap">
+                      <img src="../img/Afinador.jpg" alt="Afinador" id="accesorios">
+                    </div>
+                      <h2>Afinador</h2>
+                    <span class="date">
                      Precio: <span>$900</span>
-                  </span>
-                  <span>cantidad: 10</span>
-
-                  <div class="clearflix"></div>
-
-              </article>
-
-              <article class="article-item article-btn" id="article-template">
-                
-                <div class="image-wrap">
-                      <img src="../img/Cejillas.jpeg" alt="Cejillas">
+                    </span>
+                      <span>cantidad: 10</span>
+                    <div>
+                       <button type="button">COMPRAR</button>
+                    </div>
                   </div>
-                  <h2>Cejillas</h2>
-                  <span class="date">
-                      Precio: <span>$30</span>
-                  </span>
-                  <span>cantidad: 20</span>
-
-                  <div class="clearflix"></div>
-
-              </article>
-
-              <article class="article-item article-btn" id="article-template">
-      
-                <div class="image-wrap">
-                      <img src="../img/Correa.jpg" alt="Correa">
+  
+                  <div class="accesorios">
+                    <div class="image-wrap">
+                      <img src="../img/Cejillas.jpg" alt="Cejillas" id="accesorios">
+                    </div>
+                      <h2>Cejillas</h2>
+                    <span class="date">
+                       Precio: <span>$30</span>
+                    </span>
+                      <span>cantidad: 20</span>
+                    <div>
+                      <button type="button">COMPRAR</button>
+                    </div>
                   </div>
-                  <h2>Correa</h2>
-                  <span class="date">
-                      Precio: <span>$50</span>
-                  </span>
-                  <span>cantidad: 20</span>
-      
-                  <div class="clearflix"></div>
-      
-              </article>
-      
-              <article class="article-item article-btn" id="article-template">
-                      
-                <div class="image-wrap">
-                      <img src="../img/Puas.jpeg" alt="Puas">
-                  </div>
-                  <h2>Puas</h2>
-                  <span class="date">
-                      Precio: <span>$1</span>
-                  </span>
-                  <span>cantidad: 100</span>
-      
-                  <div class="clearflix"></div>
-      
-              </article>
-      
-    </div>
-      
+                </div>
+              </div>
+          </div>
 
+          <h2></h2>
+          <div id="articles">
+            <div class="Accesor">
+              <div class="Accesor_flex">
+                <div class="accesorios">
+                  <div class="image-wrap">
+                    <img src="../img/Correa.jpeg" alt="Correa" id="accesorios">
+                  </div>
+                    <h2>Correa</h2>
+                  <span class="date">
+                    Precio: <span>$50</span>
+                  </span>
+                    <span>cantidad: 20</span>            
+                  <div>
+                    <button type="button">COMPRAR</button>
+                  </div>
+                </div>
+
+                <div class="accesorios">
+                  <div class="image-wrap">
+                    <img src="../img/Puas.jpg" alt="Puas" id="accesorios">
+                  </div>
+                    <h2>Puas</h2>
+                  <span class="date">
+                    Precio: <span>$1</span>
+                  </span>
+                    <span>cantidad: 100</span>
+                  <div>
+                    <button type="button">COMPRAR</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
       </section>
-
-      <aside id="sidebar">
-        
-        <div id="nav-blog" class="sidebar-item">
-            <h3>Contactanos</h3>
-            <i class="fa-sharp fa-light fa-phone">3025099563</i>
-            <i class="fa-brands fa-facebook"> @Guitarist_Fox</i>
-            <i class="fa-brands fa-instagram">@Guitarist_Fox</i>
-            <i class="fa-solid fa-envelope"> Guitarist_Fox@gmail.com</i>
+    </div>
+           
+      <footer id="footer">
+        <div class="center">
+            <p>
+                &copy; Guitarist_Fox
+            </p>
         </div>
-
-    </aside>
+    </footer>
 
       <div class="clearfix"></div>
 
   </div>
   <script src="https://kit.fontawesome.com/8a47cc8987.js" crossorigin="anonymous"></script>
+  <Script src="../js/my.js"></Script>
   </body>
 </html>
