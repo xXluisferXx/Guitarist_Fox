@@ -37,25 +37,23 @@
           <form class="mid-form" id="formulario">
             <div class="form-group">
               <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" class="errores" name="nombre">
+              <input type="text" id="nombre" placeholder="Ingresar Nombre">
             </div>
             
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" class="errores" name="email">
+              <input type="email" id="email" placeholder="Ingresar Email">
             </div>
             
             <div class="form-group">
               <label for="contraseña">Contraseña</label>
-              <input type="password" id="password" class="errores" name="password">
+              <input type="password" id="password" placeholder="Ingresar Contraseña">
             </div>
-
+            
             <div class="botones">
-              <input type="submit" id="guardar" value="Iniciar Sesión" class="btn btn-succes" />
-              <input type="submit" id="boton" value="Registrarse" class="btn btn-danger" />
+               <button type="submit" id="guardar" class="btn btn-succes" onclick="calcular()"> Iniciar Sesion</button>
             </div>
-          </div>
-
+            <p id="espacioinfo"></p>
         </form>
       </div>
 
