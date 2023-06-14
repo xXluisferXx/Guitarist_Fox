@@ -341,6 +341,11 @@ button{
   height: 300px;
 }
 
+.botones{
+  border-radius: 5px;
+  background: radial-gradient(ellipse at top, red, transparent), radial-gradient(ellipse at bottom, yellow, transparent);
+}
+
 /* guitarras  */
 
 
@@ -357,6 +362,8 @@ button{
 }
 .guitarra {
   border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .guitarra:hover{
@@ -381,6 +388,8 @@ button{
 
 .accesorios{
   border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .accesorios:hover{
@@ -426,12 +435,10 @@ textarea{
   background: radial-gradient(circle, rgb(248, 244, 18) 15%, rgb(245, 70, 26) 30%, rgb(221, 15, 15) 100%);
   width: 600px;
   height: 350px;
-  margin-left: 360px;
+  margin-left: 34%;
 }
 
-.botones{
-  display: center;
-  grid-gap: 5px; 
+.boton{
   margin-top: 30px;
   margin-left: -9px;
 }
